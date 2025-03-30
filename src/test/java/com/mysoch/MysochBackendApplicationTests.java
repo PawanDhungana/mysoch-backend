@@ -1,4 +1,4 @@
-package com.mysoch.mysoch_backend;
+package com.mysoch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

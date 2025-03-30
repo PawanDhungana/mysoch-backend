@@ -1,4 +1,4 @@
-package com.mysoch.mysoch_backend;
+package com.mysoch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
