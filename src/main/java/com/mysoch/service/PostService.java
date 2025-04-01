@@ -14,4 +14,6 @@ public interface PostService {
     List<Post> getAllPosts(); // for global feed
 
     List<Post> getFeedForUser(User user); //to allow a logged-in user to view posts only from users they follow
+
+    Post getPostById(Long id);
 }

@@ -50,4 +50,10 @@ public class PostServiceImpl implements PostService {
         // Step 2: Get all posts authored by those users
         return postRepository.findByAuthorInOrderByCreatedAtDesc(followings);
     }
+
+    @Override
+    public Post getPostById(Long id) {
+        return postRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Post not found with id: " + id));
+    }
 }
